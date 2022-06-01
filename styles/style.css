@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+:root{
+    --color-green-100: rgb(191, 204, 200);    
+    --color-green-150: rgb(149, 165, 161);    
+    --color-green-200: rgb(119, 151, 141);    
+    --color-green-600: rgb(3, 33, 24);
+    --color-green-700: rgb(8, 61, 45);
+    --color-green-900: rgb(2, 37, 27);
+    --color-green-500: rgb(26, 74, 61);
+    --color-gray-500: rgb(45, 52, 49);
+    --color-white-300: rgb(224, 232, 228);
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    color: var(--color-gray-500);
+    background: var(--color-green-100);
+}
+
+header{
+    background: linear-gradient(90deg, var(--color-green-600), var(--color-green-500));
+    color: var(--color-white-300);
+    padding: 2rem 5%;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 0.2px 0.2px 4px rgb(45, 52, 49);
+}
+
+.btn{
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background: var(--color-green-600);
+    color: var(--color-white-300);
+    border: 1px  solid var(--color-green-600);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.btn-alt{
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--color-green-700);
+}
+
+.btn:hover{
+    background: var(--color-green-500);
+}
+
+.btn-alt:hover{
+    background-color: var(--color-green-200);
+}
+
