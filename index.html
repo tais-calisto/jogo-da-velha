@@ -55,27 +55,28 @@
                     </article>
                 </li>
             </ol>
-            <button class="btn">Iniciar</button>
+            <button class="btn" id="start-btn">Iniciar</button>
+            <p id="start-game-error"></p>
         </section>
         <section id="active-game">
             <article id="game-over">
                 <h3>Você venceu, <span id="winner-name">NOME DO JOGADOR</span>!</h3>
-                <p>Clique no botão "Iniciar" acima, para começar um novo jogo!</p>
+                <p>Clique no botão "Reiniciar partida" acima, para começar um novo jogo!</p>
             </article>
 
             <p>É a sua vez, <span id="active-player-name">NOME DO JOGADOR</span>!</p>            
             <ol id="game-board">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li data-col="1" data-row="1"></li>
+                <li data-col="2" data-row="1"></li>
+                <li data-col="3" data-row="1"></li>
                 
-                <li></li>
-                <li></li> 
-                <li></li>
+                <li data-col="1" data-row="2"></li>
+                <li data-col="2" data-row="2"></li> 
+                <li data-col="3" data-row="2"></li>
 
-                <li></li>
-                <li></li>
-                <li></li>
+                <li data-col="1" data-row="3"></li>
+                <li data-col="2" data-row="3"></li>
+                <li data-col="3" data-row="3"></li>
             </ol>
         </section>
     </main>

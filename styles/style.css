@@ -15,6 +15,9 @@
     --color-green-500: rgb(26, 74, 61);
     --color-gray-500: rgb(45, 52, 49);
     --color-white-300: rgb(224, 232, 228);
+    --color-red-600: rgb(136, 2, 2);
+    --color-red-200: rgb(253, 219, 219);
+    --color-red-50: rgb(204, 204, 204);
 }
 
 body{
